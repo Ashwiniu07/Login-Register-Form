@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(ok.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: sans-serif;
+}
+
+.login-box{
+
+ 
+     width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: red;
+}
+
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+
+    text-align: center
+    font-size: 22px;
+    color: magenta
+}
+
+p{
+    color: #f49126;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"],input[type="tel"],select[id="plan"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type="plans"]
+{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px; 
+}
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: yellow;
+}
+
+
+a:hover
+{
+    color: red;
+}
+.dashboard .dashboard-left{width: 15%}
+.dashboard .dashboard-right{width: 85%}
+.dashboard{float:left;}
+.dashboard header{background: red; height: 50px;}
+.dashboard aside{background: red}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
